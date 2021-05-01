@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding:0;
+}
+header {
+    display: flex;
+    height: 48px;
+    padding:6px; 
+    justify-content: space-between;
+    align-items: center;  
+
+}
+a {
+    text-decoration: none;
+}
+  .topleft {
+    margin: 0 5px 0 15px; 
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#222; 
+
+} 
+  .box2 {
+    padding: 0 17px;
+}
+
+.topright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* ----Main ------ */
+.google-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 140px;
+    padding: 20px;
+}
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 582px;
+    height: 46px; 
+    border-radius: 24px;
+    border:1px solid rgba(223,225,229);
+}
+.search:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+.box {
+    width: 487px;
+    height: 34px;
+    border:0
+}
+.logo {
+    width: 24px;
+    height: 24px;
+}
+
+button {  
+    height: 36px;   
+    margin-top: 18px;
+    padding:0  20px;
+    font-size: 14px;
+    font-family: Arial ;
+    border:0;
+}
+button:hover {
+    border: 1px solid #dae2eb;
+    border-radius: 4px;
+
+}
+.link {
+    height: 53px;
+    text-align: center;
+    margin-bottom: 32px;
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:1A0dab;
+
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 47px;
+    font-size: 14px;  
+    background-color: #f2f2f2;
+    position: fixed;
+    /* left:0; */
+    bottom:0;
+    width: 100%;
+   
+}
+.footer:hover{
+    text-decoration: underline;
+}
+
+.footer a {
+    color:rgb(71, 63, 71)
+}
+.leaf { 
+    width: 14px;
+    height: 14px;
+    margin-right: 6px; 
+}
