@@ -1,63 +1,64 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Google homepage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="topLeft">
-            <div class="navbutton">About</div> 
-            <div class="navbutton">Store</div> 
-        </div>
-        <div class="topRight">
-        <div class="navbutton">Gmail</div>  
-        <div class="navbutton">Images</div>
-        <img src="./Images/GridIcon.svg">
-        <img class="profile" src="./Images/Jessie.jpg"> 
+     <header>
+        <div class="topleft">
+            <a href="#" class="box1">About</a>
+            <a href="#" class="box2">Store</a>
         </div> 
-    </header>
-    
-    <main>
-        <div class='logoArea'>
-            <img class="google-Logo" src="Images/googlelogo.png">
+        <div class="topright">
+            <a href="#" class="text">Gmail</a>
+            <a href="#" class="text">Images</a>
+            <input type='image' src="./Images/GridIcon.svg" alt="">
+            <input type='image' src="./Images/account.svg" alt="" >
         </div>
-        <div class='searchbarWrapper'>
-            <div class="inputContainer">
-                <input type='image' src='./Images/searchlogo.svg' id="search">
-                <input id="searchbar" type="text">
-                <input type='image' id='voice' src='./Images/keyboard_voice_black_24dp.svg'>
-            </div>
-        </div>
+     </header>
+     <!-- ----Main ------ -->
+     <div class="google-icon">
+         <img src="./Images/googlelogo.png" alt="">
+     </div>
+     <div class="searchbar">
+         <div class="search">
+             <input type="image" src="./Images/search.png" alt="" class="logo">
+             <input type="text" class="box">
+             <input type="image" src="./Images/voice (2).png" alt="" class="logo">
+         </div>
+         <div>
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>            
 
-        <div id="buttons">
-            <div class="buttons">Googl e Search
-
-            </div>
-            
-            <div class="buttons">I'm Feeling Lucky
-
-            </div>
-            
-            </div>
-            <div id="links">
-                Google is offered in <a href="">X</a> <a href="">Y</a>
-
-            </div>
-        </div>
-
-      
-
-    
-    </main>
-</body>
-<div id="footer">
-    <div id="footer-content">
-        my content
+         </div>
     </div>
- 
-</div> 
+    <div class="link">
+        <a href="#">Meet the new Google Fi unlimited phone plan</a>
+     </div>
+    <div class="footer">
+        <div>
+            <a href="#" class="left">Advertising  </a>
+            <a href="#" class="left">Business  </a>
+            <a href="#" class="left">How Search works </a>
+        </div>
+        <div>
+            <a href="#" ><img src="./Images/green leaf.png" alt="" class="leaf">
+                Carbon neutral since 2007  </a>
 
+        </div>
+        <div>
+            <a href="#" class="left">Privacy </a>
+            <a href="#" class="left">Terms  </a>
+            <a href="#" class="left">Settings  </a>
+
+       </div>
+       
+
+    </div>
+    
+</body>
 </html>
